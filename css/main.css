@@ -1,0 +1,152 @@
+/* Font ready to use */
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .font-opensans {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+/* ===== */ 
+/* HEADER */ 
+
+.header-class {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link:hover{
+    color: dodgerblue !important;
+}
+
+#navbar-contacto{
+    background-color: dodgerblue;
+    padding: 6px 15px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* ===== */
+/* COPY */
+
+strong {
+    color: dodgerblue;
+}
+
+
+.copy-section {
+    padding: 150px;
+}
+
+#img-odontologo {
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .copy-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    
+}
+
+/* ===== */
+/* ABOUT */
+
+.buton {
+    all: unset;
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.about-section{
+    padding: 80px;
+}
+
+span{
+    color: dodgerblue;
+}
+
+@media screen and (max-width: 768px) {
+    .about-section{
+        padding: 50px;
+    }
+    #texto-about{
+        margin-top: 10px;
+    }
+    span{
+        color: dodgerblue;
+    }
+    
+}
+
+/* ===== */
+/* SERVICES */
+
+.services-section{
+    padding: 80px;
+}
+
+.service-title h3, p{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.service-title h3{
+    color: dodgerblue;
+    font-size: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .services-section{
+        padding: 20px;
+    }
+    
+}
+
+/* ===== */	
+/* cartas */
+
+#card {
+    border-radius: 20px;
+    width: 220px;
+    height: 260px;
+    padding: 10px;
+}
+#card:hover {
+    color: white;
+    background: dodgerblue;
+    transform: scale(1.05);
+    transition: background-color 0.5s ease, transform 0.3s ease, color 0.5s ease;
+}
+
+#svg-card {
+    border-radius: 20px;
+    padding: 5px;
+    background-color: aliceblue;
+    width: 90px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    #card:hover {
+        background: lightblue;
+        transform: scale(1.02);
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+}
+
+
+
