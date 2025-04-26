@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Especialistas en Prótesis Dentales en Medellín | ResiDental</title>
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/assets/fonts/fonts.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- SEO básico -->
+    <meta name="description" content="Especialistas en prótesis dentales en Medellín. Rehabilitación oral avanzada y sonrisas perfectas.">
+    <meta name="robots" content="index, follow">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://sonrie-bonito.vercel.app">
+    <!-- Sheol-->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dentist",
+        "name": "ResiDental",
+        "image": "/assets/img/residental.webp",
+        "description": "Especialistas en prótesis dentales en Medellín",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Medellín",
+          "addressRegion": "Antioquia",
+          "addressCountry": "CO"
+        },
+        "telephone": "+573XXXXXXXXX",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "09:00",
+            "closes": "16:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "10:00",
+            "closes": "15:00"
+          }
+        ]
+      }
+      </script>
+
 </head>
 <body>
     <!-- ================================= -->
@@ -15,7 +52,7 @@
        <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
          <a class="navbar-brand" href="" title="ResiDental Home">
-          <img src="/assets/img/residental.webp" width="auto" height="60" alt="ResiDental Logo">
+          <img src="/assets/img/residental.webp" width="auto" height="60" alt="ResiDental Logo" loading="lazy">
          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
@@ -46,13 +83,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 justify-content-center align-self-center">
-                    <h2>Especialistas en prótesis dentales y rehabilitación oral avanzada en Medellín<br> 
-                      <strong>Tu sonrisa, nuestra misión</strong> </h2>
-                    <p>En ResiDental creemos que cada sonrisa tiene una historia y merece ser cuidada con experiencia, tecnología y dedicación. Nuestra especialidad en prótesis dentales y rehabilitación oral nos permite ofrecer soluciones personalizadas y de alta calidad. Descubre todo lo que podemos hacer por ti.
-                      Desliza y conoce nuestros servicios.</p>
+                  <h1>Especialistas en prótesis dentales y rehabilitación oral avanzada en Medellín<br> 
+                    <strong>Tu sonrisa, nuestra misión</strong></h1>
                 </div>
                 <div class="col-md-6">
-                    <img src="https://static.vecteezy.com/system/resources/previews/058/025/196/non_2x/child-at-dental-appointment-with-friendly-dentist-png.png" alt="Odontologo" lazyload="true" class="img-fluid" id="img-odontologo">
+                    <img src="https://static.vecteezy.com/system/resources/previews/058/025/196/non_2x/child-at-dental-appointment-with-friendly-dentist-png.png" alt="Odontologo" class="img-fluid" id="img-odontologo" loading="lazy">
                 </div>
         </div>
      </section>
@@ -62,11 +97,11 @@
         <div class="container">
             <div class="row" id="services-cards">
                 <div class="col-md-6 justify-content-center align-self-center">
-                    <img src="https://cdn979857.fac.mil.co/sites/default/files/styles/grande/public/gallery-article/odontologa_militar_antioquena_al_servicio_de_la_nacion_transforma_vidas_y_sonrisas_3.jpeg?itok=MkJtxfQr" alt="SVG del servicios" lazyload="true" class="img-fluid" id="img-odontologo">
+                  <img src="https://cdn979857.fac.mil.co/sites/default/files/styles/grande/public/gallery-article/odontologa_militar_antioquena_al_servicio_de_la_nacion_transforma_vidas_y_sonrisas_3.jpeg?itok=MkJtxfQr" alt="Odontóloga atendiendo a un paciente en ResiDental" class="img-fluid" id="img-odontologo" loading="lazy">
                 </div>
                 <div class="col-md-6 justify-content-center align-self-center" id="texto-about">
-                    <span>Sobre Nosotros</span>
-                    <h3>Ayudamos a transformar tu sonrisa</h3>
+                  <h2>Sobre Nosotros</h2>
+                  <h3>Ayudamos a transformar tu sonrisa</h3>
                     <p>En ResiDental combinamos años de experiencia con tecnología de última generación para ofrecerte soluciones dentales confiables, precisas y totalmente personalizadas. Nos especializamos en prótesis y rehabilitación oral avanzada, y trabajamos de la mano contigo y con tu odontólogo para devolverte la funcionalidad y estética de tu sonrisa. Sabemos que cada caso es único, por eso somos tu mejor aliado en salud oral especializada.</p>
                     <button class="buton">Cotizar tratamiento</button>
                 </div>
@@ -77,26 +112,26 @@
     <!-- This is the section of SERVICES -->
     <section class="services-section" id="services-section">
        <article class="service-title">
-      <h3 id="titles">Servicios</h3>
-      <p>Especialidades odontológicas</p>
+        <h2 id="titles">Servicios</h2>
+        <p>Especialidades odontológicas</p>
        </article>
 
        <article class="cards">
       <div class="container"></div>
       <div class="row justify-content-center">
         <div class="col-md-4 d-flex flex-column align-items-center text-center m-5" id="card">
-      <img src="https://cdn-icons-png.flaticon.com/128/5498/5498939.png" alt="Icono de reparación odontológica" class="img-fluid mb-2" id="svg-card">
-      <h6 class="service-title">Prótesis Dentales</h6>
+          <img src="https://cdn-icons-png.flaticon.com/128/5498/5498939.png" alt="Icono de Prótesis Dentales" class="img-fluid mb-2" id="svg-card" loading="lazy">
+          <h6 class="service-title">Prótesis Dentales</h6>
       <p class="service-description">Soluciones personalizadas para reemplazar piezas dentales perdidas.</p>
         </div>
         <div class="col-md-4 d-flex flex-column align-items-center text-center m-5" id="card">
-      <img src="https://cdn-icons-png.flaticon.com/128/15598/15598654.png" alt="Icono de reparación odontológica" class="img-fluid mb-2" id="svg-card">
-      <h6 class="service-title">Rehabilitación Oral</h6>
+          <img src="https://cdn-icons-png.flaticon.com/128/15598/15598654.png" alt="Icono de Rehabilitación Oral" class="img-fluid mb-2" id="svg-card" loading="lazy">
+          <h6 class="service-title">Rehabilitación Oral</h6>
       <p class="service-description">Restauración funcional y estética de la cavidad oral.</p>
         </div>
         <div class="col-md-4 d-flex flex-column align-items-center text-center m-5" id="card">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMUZmYOM045Qq4VTbBMF33kt-k3k3KOetgZA&s" alt="Icono de reparación odontológica" class="img-fluid mb-2" id="svg-card">
-      <h6 class="service-title">Implantes Dentales</h6>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMUZmYOM045Qq4VTbBMF33kt-k3k3KOetgZA&s" alt="Icono de Implantes Dentales" class="img-fluid mb-2" id="svg-card" loading="lazy">
+          <h6 class="service-title">Implantes Dentales</h6>
       <p class="service-description">Reemplazo de dientes mediante raíces artificiales de titanio.</p>
         </div>
       </div>
@@ -104,18 +139,18 @@
       <div class="container"></div>
       <div class="row justify-content-center">
         <div class="col-md-4 d-flex flex-column align-items-center text-center m-5" id="card">
-      <img src="https://img.icons8.com/?size=50&id=113831&format=png" alt="Icono de reparación odontológica" class="img-fluid mb-2" id="svg-card">
-      <h6 class="service-title">Ortodoncia</h6>
+          <img src="https://img.icons8.com/?size=50&id=113831&format=png" alt="Icono de Ortodoncia" class="img-fluid mb-2" id="svg-card" loading="lazy">
+          <h6 class="service-title">Ortodoncia</h6>
       <p class="service-description">Corrección de la posición de los dientes y mordida.</p>
         </div>
         <div class="col-md-4 d-flex flex-column align-items-center text-center m-5" id="card">
-        <img src="https://cdn-icons-png.flaticon.com/128/2347/2347640.png" alt="Icono de reparación odontológica" class="img-fluid mb-2" id="svg-card">
-        <h6 class="service-title">Estética Dental</h6>
+          <img src="https://cdn-icons-png.flaticon.com/128/2347/2347640.png" alt="Icono de Estética Dental" class="img-fluid mb-2" id="svg-card" loading="lazy">
+          <h6 class="service-title">Estética Dental</h6>
         <p class="service-description">Mejoramiento de la apariencia de tu sonrisa.</p>
           </div>
           <div class="col-md-4 d-flex flex-column align-items-center text-center m-5" id="card">
-        <img src="https://cdn-icons-png.flaticon.com/128/8705/8705120.png" alt="Icono de reparación odontológica" class="img-fluid mb-2" id="svg-card">
-        <h6 class="service-title">Endodoncia</h6>
+            <img src="https://cdn-icons-png.flaticon.com/128/8705/8705120.png" alt="Icono de Endodoncia" class="img-fluid mb-2" id="svg-card" loading="lazy">
+            <h6 class="service-title">Endodoncia</h6>
         <p class="service-description">Tratamiento de conductos para salvar dientes dañados.</p>
           </div>
         </div>
@@ -127,10 +162,10 @@
          <!-- ================================= -->
         <!-- testimonios -->
       <section class="testimonial" id="testimonial">
-        <section class="text-center">
-          <h3 id="titles">Testimonios</h3>
+        <article class="text-center">
+          <h2 id="titles">Testimonios</h2>
           <p>Nuestros clientes hablan por nosotros</p>
-        </section>
+        </article>
         <div class="container d-flex justify-content-center align-items-center mt-5"></div>
           <div class="row align-items-center mx-1">
           <div class="col-1 d-flex justify-content-center">
@@ -138,7 +173,7 @@
           </div>
           <div class="col-10 d-flex justify-content-center align-items-center text-center">
           <div id="opiones">
-
+            <!-- Testimonios irían aquí -->
           </div>
           </div>
           <div class="col-1 d-flex justify-content-center">
@@ -150,11 +185,11 @@
         <!-- testimonios -->
         <hr class="my-5">
         <!-- ================================= -->
-        <!-- Ubiccación -->
+        <!-- Ubicación -->
       <section class="contacto" id="contacto">
         <section class="text-center">
-          <h3 id="titles">Contacto</h3>
-          <p>Toda nuestra informacion de contacto</p>
+          <h2 id="titles">Contacto</h2>
+          <p>Toda nuestra información de contacto</p>
         </section>
         <div class="container mt-5">
           <div class="row justify-content-center">
@@ -170,59 +205,8 @@
                   </div>
                 </div>
             </div>
-            <div class="col-md-6 text-center">
-              <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.4194154846816!3d37.7749292797597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f1f1f1f1%3A0x1234567890abcdef!2sMedell%C3%ADn!5e0!3m2!1sen!2sco!4v1697040000000!5m2!1sen!2sco" 
-                class="map-iframe" 
-                width="100%" 
-                height="500px" 
-                allowfullscreen="" 
-                title="Google Maps location of Medellín">
-              </iframe>
-            </div>
           </div>
         </div>
       </section>
-      <!-- contacto -->
-      <!-- ================================= -->
-      <!-- footer -->
-      <footer class="bg-dark py-4 mt-5 pb-5" id="footer">
-       <div class="container mt-5">
-         <div class="row">
-           <div class="col-md-6">
-            <h5>Información Legal</h5>
-            <p>Copyright © 2024 ResiDental. Todos los derechos reservados. Nit. 123456789-0.</p>
-           </div>
-           <div class="col-md-6 text-center">
-        <h5>Síguenos en Redes Sociales</h5>
-        <div class="d-flex justify-content-center">
-          <a href="#" class="mx-2">
-        <img src="https://img.icons8.com/?size=48&id=GHupgN8yQls8&format=png" alt="Facebook" width="30" height="30">
-          </a>
-          <a href="#" class="mx-2">
-        <img src="https://img.icons8.com/?size=50&id=32309&format=png" alt="Instagram" width="30" height="30">
-          </a>
-          <a href="#" class="mx-2">
-        <img src="https://img.icons8.com/?size=50&id=phOKFKYpe00C&format=png" alt="Twitter" width="30" height="30">
-          </a>
-          <a href="#" class="mx-2">
-        <img src="https://img.icons8.com/?size=50&id=8808&format=png" alt="LinkedIn" width="30" height="30">
-          </a>
-        </div>
-           </div>
-         </div>
-       </div>
-      </footer>
-
-
-     
-    <!-- ================================= -->
-    <!-- This is the section of JavaScript -->
-    <!-- 
-        js.app is a JavaScript file that contains the main logic of the application.
-        and too is called the boostrap js file.
-    -->
-    <script src="/js/app.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
