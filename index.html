@@ -11,35 +11,35 @@
 <body>
     <!-- ================================= -->
     <!-- This is the section of HEADER -->
-     <header id="header-id" class="header-class">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/assets/img/residental.webp" width="auto" height="60" alt="">
-                </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                  <li class="nav-item mx-4">
-                  <a class="nav-link" href="#about-section">Sobre Nosotros</a>
-                  </li>
-                  <li class="nav-item mx-4">
-                  <a class="nav-link" href="#services-section">Servicios</a>
-                  </li>
-                  <li class="nav-item mx-4">
-                  <a class="nav-link" href="#testimonial">Testimonios</a>
-                  </li>
-                  <li class="nav-item mx-4">
-                  <a class="nav-link" href="#contact">Contacto</a>
-                  </li>
-                </ul>
-                <a class="navbar-brand" id="navbar-contacto" href="#">Angendar Cita</a>
-              </div>
-            </div>
-          </nav>
-     </header>
+    <header id="header-id" class="header-class fixed-top">
+       <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+         <a class="navbar-brand" href="" title="ResiDental Home">
+          <img src="/assets/img/residental.webp" width="auto" height="60" alt="ResiDental Logo">
+         </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+           <li class="nav-item mx-4">
+           <a class="nav-link" href="#about-section">Sobre Nosotros</a>
+           </li>
+           <li class="nav-item mx-4">
+           <a class="nav-link" href="#services-section">Servicios</a>
+           </li>
+           <li class="nav-item mx-4">
+           <a class="nav-link" href="#testimonial">Testimonios</a>
+           </li>
+           <li class="nav-item mx-4">
+           <a class="nav-link" href="#contacto">Contacto</a>
+           </li>
+         </ul>
+         <a class="navbar-brand" id="navbar-contacto" href="#">Angendar Cita</a>
+          </div>
+        </div>
+      </nav>
+    </header>
      <!-- ================================= -->
     <!-- This is the section of COPY -->
      <section class="copy-section" id="copy-section">
@@ -122,6 +122,100 @@
         </div>
       </article>
      </section>
+         <!-- Services -->
+        <hr>
+         <!-- ================================= -->
+        <!-- testimonios -->
+      <section class="testimonial" id="testimonial">
+        <section class="text-center">
+          <h3 id="titles">Testimonios</h3>
+          <p>Nuestros clientes hablan por nosotros</p>
+        </section>
+        <div class="container d-flex justify-content-center align-items-center mt-5"></div>
+          <div class="row align-items-center mx-1">
+          <div class="col-1 d-flex justify-content-center">
+          <button id="left"><</button>
+          </div>
+          <div class="col-10 d-flex justify-content-center align-items-center text-center">
+          <div id="opiones">
+
+          </div>
+          </div>
+          <div class="col-1 d-flex justify-content-center">
+          <button id="right">></button>
+          </div>
+          </div>
+        </div>
+      </section>
+        <!-- testimonios -->
+        <hr class="my-5">
+        <!-- ================================= -->
+        <!-- Ubiccación -->
+      <section class="contacto" id="contacto">
+        <section class="text-center">
+          <h3 id="titles">Contacto</h3>
+          <p>Toda nuestra informacion de contacto</p>
+        </section>
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+            <div class="col-md-6 text-center d-flex justify-content-center">
+                <div class="horarios-atencion mt-3">
+                  <h4>Horarios de Atención</h4>
+                  <ul class="list-unstyled">
+                    <li><strong>Lunes - Viernes:</strong> De 9 am a 4 pm</li>
+                    <li><strong>Sábado:</strong> De 10 am a 3 pm</li>
+                  </ul>
+                  <div class="mt-2">
+                    <a href="#" class="btn btn-primary mb-4">Agendar Cita</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434509374!2d-122.4194154846816!3d37.7749292797597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064f1f1f1f1%3A0x1234567890abcdef!2sMedell%C3%ADn!5e0!3m2!1sen!2sco!4v1697040000000!5m2!1sen!2sco" 
+                class="map-iframe" 
+                width="100%" 
+                height="500px" 
+                allowfullscreen="" 
+                title="Google Maps location of Medellín">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contacto -->
+      <!-- ================================= -->
+      <!-- footer -->
+      <footer class="bg-dark py-4 mt-5 pb-5" id="footer">
+       <div class="container mt-5">
+         <div class="row">
+           <div class="col-md-6">
+            <h5>Información Legal</h5>
+            <p>Copyright © 2024 ResiDental. Todos los derechos reservados. Nit. 123456789-0.</p>
+           </div>
+           <div class="col-md-6 text-center">
+        <h5>Síguenos en Redes Sociales</h5>
+        <div class="d-flex justify-content-center">
+          <a href="#" class="mx-2">
+        <img src="https://img.icons8.com/?size=48&id=GHupgN8yQls8&format=png" alt="Facebook" width="30" height="30">
+          </a>
+          <a href="#" class="mx-2">
+        <img src="https://img.icons8.com/?size=50&id=32309&format=png" alt="Instagram" width="30" height="30">
+          </a>
+          <a href="#" class="mx-2">
+        <img src="https://img.icons8.com/?size=50&id=phOKFKYpe00C&format=png" alt="Twitter" width="30" height="30">
+          </a>
+          <a href="#" class="mx-2">
+        <img src="https://img.icons8.com/?size=50&id=8808&format=png" alt="LinkedIn" width="30" height="30">
+          </a>
+        </div>
+           </div>
+         </div>
+       </div>
+      </footer>
+
+
+     
     <!-- ================================= -->
     <!-- This is the section of JavaScript -->
     <!-- 

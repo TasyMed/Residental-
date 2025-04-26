@@ -1,9 +1,19 @@
-/* Font ready to use */
-.font-montserrat {
+/* Variables para colores y valores reutilizados */
+:root {
+    --color-primary: dodgerblue;
+    --color-white: white;
+    --border-radius-std: 20px;
+    --padding-section-lg: 80px;
+    --padding-section-sm: 50px;
+    --padding-section-xs: 20px;
+  }
+  
+  /* Font ready to use */
+  .font-montserrat {
     font-family: 'Montserrat', sans-serif;
   }
   
-  .font-opensans {
+  .font-opensans, .header-class {
     font-family: 'Open Sans', sans-serif;
   }
   
@@ -11,142 +21,134 @@
     font-family: 'Roboto', sans-serif;
   }
   
-/* ===== */ 
-/* HEADER */ 
-
-.header-class {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.nav-link:hover{
-    color: dodgerblue !important;
-}
-
-#navbar-contacto{
-    background-color: dodgerblue;
+  /* ===== */ 
+  /* HEADER */ 
+  .nav-link:hover {
+    color: var(--color-primary) !important;
+  }
+  
+  #navbar-contacto {
+    background-color: var(--color-primary);
     padding: 6px 15px;
-    border-radius: 20px;
-    color: white;
-}
-
-/* ===== */
-/* COPY */
-
-strong {
-    color: dodgerblue;
-}
-
-
-.copy-section {
+    border-radius: var(--border-radius-std);
+    color: var(--color-white);
+  }
+  
+  /* ===== */
+  /* COPY */
+  strong, .service-title h3, span, #titles {
+    color: var(--color-primary);
+  }
+  
+  .copy-section {
     padding: 150px;
-}
-
-#img-odontologo {
-    border-radius: 20px;
-}
-
+  }
+  
+  #img-odontologo {
+    border-radius: var(--border-radius-std);
+  }
+  
+  /* ===== */
+  /* ABOUT */
+  .buton {
+    all: unset;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 10px 20px;
+    border-radius: var(--border-radius-std);
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .about-section, .services-section {
+    padding: var(--padding-section-lg);
+  }
+  
+  /* ===== */
+  /* SERVICES */
+  .service-title h3, .service-title p {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .service-title h3 {
+    font-size: 50px;
+  }
+  
+  /* ===== */	
+  /* cartas */
+  #card {
+    border-radius: var(--border-radius-std);
+    width: 220px;
+    height: 260px;
+    padding: 10px;
+  }
+  
+  #card:hover {
+    color: var(--color-white);
+    background: var(--color-primary);
+    transform: scale(1.05);
+    transition: background-color 0.5s ease, transform 0.3s ease, color 0.5s ease;
+  }
+  
+  #svg-card {
+    border-radius: var(--border-radius-std);
+    padding: 5px;
+    background-color: aliceblue;
+    width: 90px;
+    margin-top: 10px;
+  }
+  
+  #right, #left {
+    all: unset;
+    font-size: 40px;
+    color: black;
+  }
+  
+  #right:hover, #left:hover {
+    cursor: pointer;
+    color: var(--color-primary);
+  }
+  
+  #tabla-horarios {
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  #footer {
+    color: var(--color-white) !important;
+  }
+  
+  #titles {
+    font-size: 45px;
+  }
+  
+  /* Media queries */
 @media screen and (max-width: 768px) {
     .copy-section {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 20px;
+        padding: var(--padding-section-xs);
+        margin-top: 90px;
     }
     
-    
-}
-
-/* ===== */
-/* ABOUT */
-
-.buton {
-    all: unset;
-    background-color: dodgerblue;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    text-decoration: none;
-    font-size: 16px;
-}
-
-.about-section{
-    padding: 80px;
-}
-
-span{
-    color: dodgerblue;
-}
-
-@media screen and (max-width: 768px) {
-    .about-section{
-        padding: 50px;
+    .about-section {
+        padding: var(--padding-section-sm);
     }
-    #texto-about{
+    
+    #texto-about {
         margin-top: 10px;
     }
-    span{
-        color: dodgerblue;
+    
+    .services-section {
+        padding: var(--padding-section-xs);
     }
-    
-}
-
-/* ===== */
-/* SERVICES */
-
-.services-section{
-    padding: 80px;
-}
-
-.service-title h3, p{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.service-title h3{
-    color: dodgerblue;
-    font-size: 50px;
-}
-
-@media screen and (max-width: 768px) {
-    .services-section{
-        padding: 20px;
-    }
-    
-}
-
-/* ===== */	
-/* cartas */
-
-#card {
-    border-radius: 20px;
-    width: 220px;
-    height: 260px;
-    padding: 10px;
-}
-#card:hover {
-    color: white;
-    background: dodgerblue;
-    transform: scale(1.05);
-    transition: background-color 0.5s ease, transform 0.3s ease, color 0.5s ease;
-}
-
-#svg-card {
-    border-radius: 20px;
-    padding: 5px;
-    background-color: aliceblue;
-    width: 90px;
-    margin-top: 10px;
-}
-
-@media screen and (max-width: 768px) {
 
     #card:hover {
-        background: lightblue;
+        background: var(--color-primary);
         transform: scale(1.02);
         transition: background-color 0.3s ease, transform 0.2s ease;
     }
 }
-
-
-
