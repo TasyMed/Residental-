@@ -29,7 +29,7 @@
   
   #navbar-contacto {
     background-color: var(--color-primary);
-    padding: 6px 15px;
+    padding: 10px 20px;
     border-radius: var(--border-radius-std);
     color: var(--color-white);
   }
@@ -41,7 +41,7 @@
   }
   
   .copy-section {
-    padding: 150px;
+    padding: 100px 150px 60px 150px;
   }
   
   #img-odontologo {
@@ -59,14 +59,17 @@
     text-decoration: none;
     font-size: 16px;
   }
+  .about-section h2{
+    color: var(--color-primary);
+  }
   
-  .about-section, .services-section {
-    padding: var(--padding-section-lg);
+  #about-section{
+    margin-bottom: 50px;
   }
   
   /* ===== */
   /* SERVICES */
-  .service-title h3, .service-title p {
+  #titles, .service-title p {
     display: flex;
     justify-content: center;
   }
@@ -114,10 +117,6 @@
     width: 300px;
     height: 100px;
     border-radius: 10px;
-  }
-  
-  #footer {
-    color: var(--color-white) !important;
   }
   
   #titles {
